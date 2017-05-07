@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="威尔健身会所"
+                android:textSize="12pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="当前登录用户：杨笑"
+                android:textSize="8pt" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="返回" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名：" 
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonSure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+         <TextView
+            android:id="@+id/textUserID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID：" 
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editUserID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4" >
+
+            <requestFocus />
+        </EditText>
+         <TextView
+            android:id="@+id/textStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始日期：" 
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+         <TextView
+            android:id="@+id/textUserAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age：" 
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editUserAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4" >
+
+            <requestFocus />
+        </EditText>
+         <TextView
+            android:id="@+id/textEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束日期：" 
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000" 
+            />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="6dp"
+            android:text="删除" />
+
+    </LinearLayout>
+
+</LinearLayout>

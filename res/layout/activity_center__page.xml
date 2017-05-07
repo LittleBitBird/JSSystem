@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="威尔健身会所"
+                android:textSize="12pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/TextUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="当前登录用户：杨笑"
+                android:textSize="8pt" />
+
+            <Button
+                android:id="@+id/buttonQuit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="注销" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加用户" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonDeleteUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除用户" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonUpdateUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更新用户" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/buttonLoginMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录人信息" />
+    </LinearLayout>
+
+</LinearLayout>
